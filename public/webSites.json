@@ -1,0 +1,39 @@
+{
+    "WebSites": [
+        {
+            "id": "sitioWeb1",
+            "nombre": "Bienes Raices",
+            "url": "",
+            "Descripcion": "Bienes raices is focused on sales and purchases of real estates. It's a CRUD built with MVC archictecture also has protected routes that only the adminstrators can access. the stack for this project was: HTML, SASS, Javascript, PHP and MySql",
+            "Github": "https://github.com/fabriciobencomo/BienesRaices"
+        },
+        {
+            "id": "sitioWeb2",
+            "nombre": "The Food",
+            "url": "https://fabriciobencomo.000webhostapp.com",
+            "Descripcion": "Bienes raices is focused on sales and purchases of real estates. It's a CRUD built with MVC archictecture also has protected routes that only the adminstrators can access. the stack for this project was: HTML, SASS, Javascript, PHP and MySql",
+            "Github": "https://github.com/fabriciobencomo/Proyecto_Alimentos"
+        },
+        {
+            "id": "sitioWeb3",
+            "nombre": "Instagram 2.0",
+            "url": "",
+            "Descripcion": "",
+            "Github": "https://github.com/fabriciobencomo/Instragam-Clone"
+        },
+        {
+            "id": "sitioWeb4",
+            "nombre": "ShareRecipes",
+            "url": "",
+            "Descripcion": "",
+            "Github": ""
+        },
+        {
+            "id": "sitioWeb5",
+            "nombre": "Rolls Restaurant",
+            "url": "",
+            "Descripcion": "",
+            "Github": ""
+        }
+    ]
+}

@@ -1,0 +1,150 @@
+.projects{
+
+    background-color: $amarillo;
+    padding-bottom: 3rem;
+    margin-bottom: 0;
+    min-height: 100vh;
+
+
+    .project-title{
+        background-color: $negro;
+        color: $amarillo;
+        margin-top: -1.7rem;
+        border-top: 30px solid $amarillo ;
+        font-size: 2.7rem;
+        text-transform: uppercase;
+        font-weight: $bold;
+    }
+
+    .project-content{
+        @include tablet{
+            @include grid(2, 0);
+            padding: 3rem;
+        }
+
+
+        .card{
+            overflow: hidden;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .hover{
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                overflow: hidden;
+                height: 100%;
+                width: 100%;
+                background-color: rgba(0, 0, 0, 0.6);
+                bottom: -100%;
+
+                h4{
+                    color: $blanco;
+                }
+
+                a{
+                    margin-top: -2rem;
+                }
+
+
+            }
+
+            &:hover{
+                .hover{
+                    bottom: 0%;
+                    transition: all .5s;
+                }    
+            }
+
+        }
+    }
+
+    .display{
+        display: content;
+    }
+
+}
+
+.overlay-body{
+    top: 0;
+    left: 0;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    mask-position: 20rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    backdrop-filter: blur(3px);
+}
+.modal{
+    top: 0;
+    left: 0;
+    width: 85%;
+    margin: 1rem 0;
+    min-height: 80vh;
+    background-color: #fff;
+    mask-position: 20rem;
+    z-index: 2 !important;
+    @include tablet{
+        width: 50%;
+    }
+    .img-web{
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    h3{
+        font-weight: $bold;
+    }
+    .url-website{
+        display: flex;
+        justify-content: flex-end;
+        align-content: flex-end;
+        margin: 1rem;
+    }
+    p{
+        margin: 1rem 2rem;
+    }
+}
+.button-web{
+    background-color: transparent;
+    border: 1.4px solid $negro;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    img{
+        height: 2rem;
+        margin: 0 1rem;
+    };
+
+    a{
+        color: $negro;
+        margin: 0 1rem;
+    };
+
+    &:hover{
+        background-color: $negro;
+        cursor: pointer;
+        img{
+            filter: invert(100%);
+        };
+    
+        a{
+            color: $blanco;
+        };
+    }
+}
+
+
+

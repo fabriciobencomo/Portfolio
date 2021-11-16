@@ -1,0 +1,5 @@
+@include tablet{
+    .skills{
+        @include grid(3, 2rem);
+    }
+}

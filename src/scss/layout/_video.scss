@@ -1,0 +1,50 @@
+.video {
+
+    width: 100%;
+    min-height: 100vh;
+
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+
+    .overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: -moz-linear-gradient(45deg, rgba(51,53,51,0.62) 0%, rgba(36,36,35,0.56) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(45deg, rgba(51,53,51,0.62) 0%,rgba(36,36,35,0.56) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(45deg, rgba(51,53,51,0.62) 0%,rgba(36,36,35,0.56) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9e333533', endColorstr='#8f242423',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    }
+    
+    video {
+        display: block;
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+        position: absolute;
+        z-index: -2;
+    }
+}
+
+.contenido-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+    z-index: 0;
+
+    h2 {
+        font-weight: $bold;
+        color: $blanco;
+        font-size: 4rem;
+        margin-top: -2rem;
+
+        span{
+            color: $amarillo;
+        }
+
+    }
+}
