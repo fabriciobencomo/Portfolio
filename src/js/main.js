@@ -1,3 +1,8 @@
+$(window).on("load", function(){
+    $(".loader").fadeOut(1000);
+    $(".content-full").fadeIn(100);
+});
+
 document.addEventListener('DOMContentLoaded', function() {
     EventListeners();
     portfolio();
@@ -17,52 +22,56 @@ function EventListeners(){
     navegacionResponsive();
     mensajeDisapear();
 }
-window.sr = ScrollReveal();
+
+function animationScrollReveal(){
+
+}
 
 function animation(){
+    window.sr = ScrollReveal();
     sr.reveal('.about-title', {
-        duration: 2000,
+        duration: 1000,
         origin: 'left',
         distance:'200px'
 
     });
     sr.reveal('.project-title', {
-        duration: 2000,
+        duration: 1000,
         origin: 'right',
         distance:'200px'
 
     });
 
     sr.reveal('.contenido-video', {
-        duration: 2000
+        duration: 1000
 
     });
 
     sr.reveal('.about-content', {
-        duration: 2000,
+        duration: 1000,
         origin: 'bottom',
         distance: '200px'
     });
 
     sr.reveal('.card', {
-        duration: 2000,
+        duration: 1000,
         origin: 'bottom',
         distance: '200px'
     });
 
 
     sr.reveal('.contact-title', {
-        duration: 2000,
+        duration: 1000,
         origin: 'left',
         distance: '200px'
     });
     sr.reveal('form', {
-        duration: 2000,
+        duration: 1000,
         origin: 'right',
         distance: '400px'
     });
     sr.reveal('.fijo', {
-        duration: 2000,
+        duration: 1000,
         origin: 'pop',
     });
 

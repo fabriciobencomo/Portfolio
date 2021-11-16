@@ -45,12 +45,37 @@
     transform: translateX(-30px);
 }
 
-.loader{
-    display: flex;
-    justify-content: center;
+
+.loader {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background-color: $negro;
+  position: absolute;
 }
 
-.loader div{
-    margin: 5px;
-    width: ;
+.loader>div{
+  height: 100px;
+  width: 100px;
+  border: 10px solid $blanco;
+  border-top-color: $amarillo;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 50%;
+  animation: spin 1.5s infinite linear;
 }
+
+@keyframes spin{
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+.content-full{
+  display: none;
+}
+
