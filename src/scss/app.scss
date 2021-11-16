@@ -1,0 +1,18 @@
+@use "sass:list";
+@use "sass:math";
+@import 'base/normalize';
+@import 'base/variables';
+@import 'base/mixins';
+@import 'base/globales';
+@import 'base/utilidades';
+@import 'base/botones';
+
+/** UI **/
+@import 'layout/video';
+@import 'layout/navegacion';
+@import 'layout/about';
+@import 'layout/skills';
+@import 'layout/contacto';
+@import 'layout/projects';
+@import 'layout/footer';
+
