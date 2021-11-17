@@ -10,8 +10,10 @@
           <?php endif; ?>
         </div>
     </div>
-    <video autoplay muted loop>
+    <video preload="auto" autoplay muted loop>
         <source src="./build/video/black.mp4" type="video/mp4">
+        <source src="./build/video/black.ogg" type="video/ogg">
+        <source src="./build/video/black.webm" type="video/webm">
     </video>
   </div>
   <div class="navbar">

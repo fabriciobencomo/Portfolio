@@ -1,11 +1,11 @@
 $(window).on("load", function(){
-    $(".loader").fadeOut(1000);
-    $(".content-full").fadeIn(100);
+    $(".loader").fadeOut(2000);
+    $(".content-full").fadeIn(1000)
+    .then(portfolio().then(animation()));
 });
 
 document.addEventListener('DOMContentLoaded', function() {
     EventListeners();
-    portfolio();
 })
 var widthBrowser = window.outerWidth;
 
@@ -16,62 +16,58 @@ var botonesModal;
 
 
 function EventListeners(){
-    animation();
     scrollNav();
     navegacionFija();
     navegacionResponsive();
     mensajeDisapear();
 }
 
-function animationScrollReveal(){
-
-}
 
 function animation(){
     window.sr = ScrollReveal();
     sr.reveal('.about-title', {
-        duration: 1000,
+        duration: 2000,
         origin: 'left',
         distance:'200px'
 
     });
     sr.reveal('.project-title', {
-        duration: 1000,
+        duration: 2000,
         origin: 'right',
         distance:'200px'
 
     });
 
     sr.reveal('.contenido-video', {
-        duration: 1000
+        duration: 2000
 
     });
 
     sr.reveal('.about-content', {
-        duration: 1000,
+        duration: 2000,
         origin: 'bottom',
         distance: '200px'
     });
 
     sr.reveal('.card', {
-        duration: 1000,
+        duration: 2000,
         origin: 'bottom',
         distance: '200px'
     });
 
 
     sr.reveal('.contact-title', {
-        duration: 1000,
+        duration: 2000,
         origin: 'left',
         distance: '200px'
     });
     sr.reveal('form', {
-        duration: 1000,
+        duration: 2000,
         origin: 'right',
         distance: '400px'
     });
     sr.reveal('.fijo', {
-        duration: 1000,
+        duration: 2000,
         origin: 'pop',
     });
 

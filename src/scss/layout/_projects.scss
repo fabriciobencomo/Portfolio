@@ -75,7 +75,7 @@
     left: 0;
     width: 100vw;
     min-height: 100vh;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.95);
     mask-position: 20rem;
     z-index: 2;
     display: flex;
@@ -83,6 +83,7 @@
     align-items: center;
     justify-content: center;
     position: fixed;
+    overflow: -moz-hidden-unscrollable;
     backdrop-filter: blur(3px);
 }
 .modal{
@@ -93,6 +94,7 @@
     min-height: 80vh;
     background-color: #fff;
     mask-position: 20rem;
+    overflow: scroll;
     z-index: 2 !important;
     @include tablet{
         width: 50%;
@@ -113,18 +115,21 @@
     }
     p{
         margin: 1rem 2rem;
+        font-size: 1.5rem;
     }
 }
 .button-web{
+    font-size: 1.5rem;
+    width: auto;
     background-color: transparent;
     border: 1.4px solid $negro;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0.5rem;
-    padding: 0.5rem 1rem;
+    margin: 0.2rem;
+    padding: 0.5rem 0.5rem;
     img{
-        height: 2rem;
+        height: 1.5rem;
         margin: 0 1rem;
     };
 
