@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 $(window).on("load", function(){
     $(".loader").fadeOut(2000);
     $(".content-full").fadeIn(1000)
@@ -6,6 +7,11 @@ $(window).on("load", function(){
 
 document.addEventListener('DOMContentLoaded', function() {
     EventListeners();
+=======
+document.addEventListener('DOMContentLoaded', function() {
+    EventListeners();
+    portfolio();
+>>>>>>> f510c7cae82882670cbb112e84f2b02fd24d6984
 })
 var widthBrowser = window.outerWidth;
 
@@ -16,15 +22,25 @@ var botonesModal;
 
 
 function EventListeners(){
+<<<<<<< HEAD
+=======
+    animation();
+>>>>>>> f510c7cae82882670cbb112e84f2b02fd24d6984
     scrollNav();
     navegacionFija();
     navegacionResponsive();
     mensajeDisapear();
 }
+<<<<<<< HEAD
 
 
 function animation(){
     window.sr = ScrollReveal();
+=======
+window.sr = ScrollReveal();
+
+function animation(){
+>>>>>>> f510c7cae82882670cbb112e84f2b02fd24d6984
     sr.reveal('.about-title', {
         duration: 2000,
         origin: 'left',
@@ -265,4 +281,8 @@ function closeModal(){
         hideNavBar.style.display = 'flex'
         show.style.visibility = 'visible'
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> f510c7cae82882670cbb112e84f2b02fd24d6984

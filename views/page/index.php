@@ -115,4 +115,13 @@
         <input type="submit" value="Submit" class="boton-blanco">
       </form>
     </div>
+<<<<<<< HEAD
   </section>
+=======
+  </section>
+  <div class="loader">
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+  </div>
+>>>>>>> f510c7cae82882670cbb112e84f2b02fd24d6984
