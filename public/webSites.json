@@ -3,11 +3,7 @@
         {
             "id": "sitioWeb1",
             "nombre": "Bienes Raices",
-<<<<<<< HEAD
             "url": "#",
-=======
-            "url": "",
->>>>>>> f510c7cae82882670cbb112e84f2b02fd24d6984
             "Descripcion": "Bienes raices is focused on sales and purchases of real estates. It's a CRUD built with MVC archictecture also has protected routes that only the adminstrators can access. the stack for this project was: HTML, SASS, Javascript, PHP and MySql",
             "Github": "https://github.com/fabriciobencomo/BienesRaices"
         },
@@ -21,11 +17,7 @@
         {
             "id": "sitioWeb3",
             "nombre": "Instagram 2.0",
-<<<<<<< HEAD
             "url": "#",
-=======
-            "url": "",
->>>>>>> f510c7cae82882670cbb112e84f2b02fd24d6984
             "Descripcion": "",
             "Github": "https://github.com/fabriciobencomo/Instragam-Clone"
         },
@@ -34,22 +26,21 @@
             "nombre": "ShareRecipes",
             "url": "",
             "Descripcion": "",
-<<<<<<< HEAD
             "Github": "https://github.com/fabriciobencomo/ShareRecipes"
-=======
-            "Github": ""
->>>>>>> f510c7cae82882670cbb112e84f2b02fd24d6984
         },
         {
             "id": "sitioWeb5",
             "nombre": "Rolls Restaurant",
             "url": "",
             "Descripcion": "",
-<<<<<<< HEAD
             "Github": "https://github.com/fabriciobencomo/Restaurant-Sushi"
-=======
-            "Github": ""
->>>>>>> f510c7cae82882670cbb112e84f2b02fd24d6984
+        },
+        {
+            "id": "sitioWeb6",
+            "nombre": "DevJobs",
+            "url": "",
+            "Descripcion": "",
+            "Github": "https://github.com/fabriciobencomo/Restaurant-Sushi"
         }
     ]
 }
